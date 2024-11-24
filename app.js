@@ -27,5 +27,5 @@ app.delete('/orders/:id', api.deleteOrder);  // Delete an order
 
 //Put and delete orders
 // Boot the server
-app.listen(port, () => console.log(`Server listening on port ${port}`))
+app.listen(port,'0.0.0.0',  () => console.log(`Server listening on port ${port}`))
 
